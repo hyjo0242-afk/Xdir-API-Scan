@@ -1,4 +1,4 @@
-module github.com/твой ник/xdir
+module github.com/hyjo0242-afk/xdir
 
 go 1.21
 
