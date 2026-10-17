@@ -1,6 +1,4 @@
 ```markdown
-<div align="center">
-
 ```text
   ██╗  ██╗██████╗ ██╗██████╗ 
   ╚██╗██╔╝██╔══██╗██║██╔══██╗
@@ -12,8 +10,6 @@
 
 Xdir — Fast API Endpoint Extractor
 
-</div>
-
 ---
 
 Скачивает JavaScript-файлы с целевого сайта и автоматически извлекает из них скрытые эндпоинты API (/api/..., /v1/..., /graphql).
@@ -23,7 +19,7 @@ Xdir — Fast API Endpoint Extractor
 Убедитесь, что у вас установлен Go (версия 1.21 или выше).
 
 ```bash
-git clone https://github.com/ТВОЙ_НИК/xdir.git
+git clone https://github.com/hyjo0242-afk/xdir.git
 cd xdir
 go mod tidy
 go build -o xdir .
@@ -48,6 +44,4 @@ go build -o xdir .
 
 ```bash
 ./xdir -u https://example.com -json -o result.json
-```
-
 ```
